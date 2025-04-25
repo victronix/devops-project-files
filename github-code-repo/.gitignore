@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.npm
+
+# Build output
+dist/
+build/
+docs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+terraform.tfvars
+*.tfvars.secret
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db 
