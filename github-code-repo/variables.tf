@@ -7,5 +7,11 @@ variable "github_token" {
 variable "repository_name" {
   description = "Name of the GitHub repository"
   type        = string
-  default     = "frontend-bootcamp"
+  default     = "devops-project-files"
+}
+
+variable "github_owner" {
+  description = "GitHub owner"
+  type        = string
+  default     = "victronix"
 } 
